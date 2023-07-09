@@ -1,0 +1,10 @@
+#function/method/task/def
+def divide(num1, num2):
+    return num1 / num2
+   
+  
+
+number_1 = 500
+number_2 = 2
+result = divide (number_1, number_2)
+print(number_1, "/", number_2, "=",	result)
