@@ -1,0 +1,10 @@
+#function/method/task/def
+def subtract(num1, num2):
+    return num1 - num2
+   
+  
+
+number_1 = 100
+number_2 = 88
+result = subtract (number_1, number_2)
+print(number_1, "-", number_2, "=",	result)
