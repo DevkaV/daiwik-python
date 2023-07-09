@@ -1,0 +1,13 @@
+# Python program for simple calculator
+# Function to add two numbers
+
+#function/method/task/def
+def add(num1, num2):
+	return num1 + num2
+   
+  
+
+number_1 = 5
+number_2 = 3
+result = add(number_1, number_2)
+print(number_1, "+", number_2, "=",	result)
