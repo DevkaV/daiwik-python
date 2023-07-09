@@ -1,0 +1,10 @@
+#function/method/task/def
+def multiply(num1, num2):
+    return num1 * num2
+   
+  
+
+number_1 = 5
+number_2 = 10
+result = multiply (number_1, number_2)
+print(number_1, "x", number_2, "=",	result)
