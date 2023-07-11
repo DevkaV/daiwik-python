@@ -1,0 +1,14 @@
+sayhappybday = "Happy Birthday Devika!!!!"
+print(sayhappybday)
+
+guest = [ "Gill" , "Agam" , "Sarvin" , "Nikhil" , "Loyal" ]
+print(guest)
+
+
+
+gift = ["Gill = $50 " , "Agam = $30 " , "Sarvin = $40" , "Nikhil = $45" , "Loyal = $40"]
+
+print (gift)
+
+total = "Total Money $205"
+print(total)
