@@ -3,12 +3,20 @@ print(sayhappybday)
 
 guest = [ "Gill" , "Agam" , "Sarvin" , "Nikhil" , "Loyal" ]
 print(guest)
+               
 
+gift = [50, 30, 40, 45, 40]
 
+for item in gift:
+    print(item)
 
-gift = ["Gill = $50 " , "Agam = $30 " , "Sarvin = $40" , "Nikhil = $45" , "Loyal = $40"]
+def add(num1, num2, num3, num4, num5):
+    return num1 + num2 + num3 + num4 + num5
 
-print (gift)
-
-total = "Total Money $205"
-print(total)
+number_1 = 50
+number_2 = 30
+number_3 = 40
+number_4 = 45
+number_5 = 40
+result = add(number_1, number_2, number_3, number_4, number_5)
+print(number_1, "+", number_2, "+", number_3, "+", number_4, "+", number_5, "=", result)
