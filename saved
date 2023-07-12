@@ -1,0 +1,16 @@
+sayhappybday = "Happy Birthday Devika!!!!"
+print(sayhappybday)
+
+guest = [ "Gill" , "Agam" , "Sarvin" , "Nikhil" , "Loyal" ]
+print(guest)
+               
+
+total=0
+gift = [50, 30, 40, 45, 40]
+for item in gift:
+    print(item)
+
+def add():
+    return num1 + num2 
+
+
