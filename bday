@@ -4,19 +4,14 @@ print(sayhappybday)
 guest = [ "Gill" , "Agam" , "Sarvin" , "Nikhil" , "Loyal" ]
 print(guest)
                
-
+total = 0
 gift = [50, 30, 40, 45, 40]
 
-for item in gift:
-    print(item)
+for i in range(5):
+    print(gift[i])
+    total += gift[i]
 
-def add(num1, num2, num3, num4, num5):
-    return num1 + num2 + num3 + num4 + num5
+print("Total:", total)
 
-number_1 = 50
-number_2 = 30
-number_3 = 40
-number_4 = 45
-number_5 = 40
-result = add(number_1, number_2, number_3, number_4, number_5)
-print(number_1, "+", number_2, "+", number_3, "+", number_4, "+", number_5, "=", result)
+def add(next_number):
+   total += next_number
