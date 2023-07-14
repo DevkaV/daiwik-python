@@ -1,16 +1,15 @@
-sayhappybday = "Happy Birthday Devika!!!!"
-print(sayhappybday)
+# Python program for simple calculator
+# Function to add two numbers
 
-guest = [ "Gill" , "Agam" , "Sarvin" , "Nikhil" , "Loyal" ]
-print(guest)
-               
+#function/method/task/def
+def add(num1, num2):
+	return num1 + num2
+def add(num1, num2, num3):
+	return num1 + num2 + num3  
+  
 
-total=0
-gift = [50, 30, 40, 45, 40]
-for item in gift:
-    print(item)
-
-def add():
-    return num1 + num2 
-
-
+number_1 = 5
+number_2 = 3
+number_3 = 10
+result = add(number_1, number_2 , number_3)
+print(number_1, "+", number_2, "+" , number_3, "=",	result)
