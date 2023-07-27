@@ -1,35 +1,31 @@
-#Daiwik
-total = 0
-
+#Both of the ways need the same list and function
+magic = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 def add(inputnumber):
     global total
     total += inputnumber
     return total
 
-magic = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-
+#Daiwik
+#They both need total=0  or they both will add each other
+total = 0
+#I wrote a loop only for the first number
 for i in range(1):
     add(magic[i])
-
+#adding 4 to he first number
 add(4)
-
+#Telling it that the last number should be 5
 last_number = 5
-
+#printing the answer
 print (total,last_number)
 
 #Devika
+#reset to 0
 total = 0
-
-def add(inputnumber):
-    global total
-    total += inputnumber
-    return total
-
-magic = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
-
+#The loop should go through all of the numbers
 for i in range(10):
     add(magic[i])
-
+#On line 26 the add funcion is adding all the 10 numbers
+#printing the answer
 print (total)
 
 
