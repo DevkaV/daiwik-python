@@ -1,8 +1,8 @@
-# Add 10 different numbers. There are many ways to add them. I did it differently than Devika.
-# Both of the ways need the same list and function
+#We both want to add 10 different numbers. There are many ways to add them. I did it differently than Devika.
+#Both of the ways need the same list and function
 magic = [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 def add(inputnumber):
-    global total
+    global total 
     total += inputnumber
     return total
 
@@ -28,7 +28,3 @@ for i in range(10):
 #On line 26 the add funcion is adding all the 10 numbers
 #printing the answer
 print (total)
-
-
-
-
