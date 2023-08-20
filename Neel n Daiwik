@@ -1,0 +1,24 @@
+
+def	start():
+	    return fly
+
+def	takeoff (signal): 
+    if signal==1:
+        print("TakeOff")
+    else:
+        print("Don'tTakeOff")
+    return 
+
+def	fly ():
+	    return fly
+
+def	land (signal):
+    if signal==1:
+        print("land")
+    else:
+        print("Don't land")
+    return
+        
+
+def	stop():
+	    return stop
